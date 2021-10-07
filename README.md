@@ -35,11 +35,26 @@ These features were used to develop the most effective model:
 
 ## Conclusion
 
-## Important libraries used
+## Important libraries:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- datetime
+- sklearn
+- statsmodels
+- random
+- mpl_toolkits
+- scipy
+- warnings
+- utils
 
 ## Files
 
-## Contributors
+## Contributors:
+- Jade Adams
+- Jennifer Cobb
+- Danielle Rossman
 
 ## Credit
 
