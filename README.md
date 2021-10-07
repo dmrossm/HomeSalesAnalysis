@@ -4,12 +4,12 @@
 
 ## Business Problem
 
-  The Low Income Housing Institute (LIHI) has received a $60 million grant from Amazon to purchase and lease affordable homes to working class families.
+The Low Income Housing Institute (LIHI) has received a $60 million grant from Amazon to purchase and lease affordable homes to working class families.
 Our goal was to find an efficient model that can help choose which homes to buy, to maximize the number of homes LIHI can purchase.
 
 ## Dataset Characteristics
 
-  The dataset describes around 22,000 homes sold in between 2014-2015, with over 20 different characteristics listed: price, number of bedrooms and bathrooms, square feet of living space, and more.
+The dataset describes around 22,000 homes sold between 2014-2015, with over 20 different characteristics listed, including price, number of bedrooms and bathrooms, square feet of living space, and more.
 
 ## Key Takaways
 These features were used to develop the most effective model: 
