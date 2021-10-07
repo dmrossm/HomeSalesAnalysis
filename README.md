@@ -16,20 +16,15 @@ These features were used to develop the most effective model:
 1) Living space square footage (LSSF): Square footage of living space in the home
 2) Closest 15 neighbors living space square footage: The square footage of interior housing living space for the nearest 15 neighbors
 3) Latitude: Latitude coordinate
-4) Grade: Overall grade of the house. Related to the construction and design of the house
+4) Grade: Overall grade of the house. Related to the construction and design of the house.
 
 ## Exploratory Data Analysis
 
 ## Data Cleaning Process
 1) Narrowed data to single family homes (2-5 bedrooms).
-2) Removed extraneous variables (view, year renovated, etc.)
+2) Removed extraneous variables based on missing values and outliers (view, year renovated, date, waterfront)
 3) Eliminated other outliers (excessive basement space, bathrooms, floors, etc.)
-4) Matched locational data to city names.
-
-- Missing Values:
-
-
--Outliers: 
+4) Matched locational data to city names. 
 
 ## Modeling
 
@@ -47,9 +42,12 @@ These features were used to develop the most effective model:
 - mpl_toolkits
 - scipy
 - warnings
-- utils
+- utils (self-made library compilation)
 
-## Files
+## Files:
+- Main notebook: 
+
+- Functions: 
 
 ## Contributors:
 - Jade Adams
@@ -58,4 +56,5 @@ These features were used to develop the most effective model:
 
 ## Credit
 
-## Footnotes
+## Dataset Glossary:
+- https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r#b
