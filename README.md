@@ -13,6 +13,8 @@ The dataset describes 21,597 homes in Kings County sold between 2014-2015, with 
 While most of the data is listed for each house, some features have several null values. Waterfront is missing around 2000 values and view is missing around 200. Year renovated is missing 5000 values. As the three of these features didn’t have a high pearson correlation coefficient to the variable of interest, price, we decided to drop the rows.
 Another important characteristic included was the qualitative grade and condition of the dataset. Each house was scored on a 1-13 scale of quality, from poor to luxury. The condition meanwhile assesses the wear and tear on the household, from Poor to Very Good.
 
+
+
 ##                                Feature Correlation Chart
 
 ![Feature Correlation Chart](https://github.com/dmrossm/HomeSalesAnalysis/blob/main/images/image%20(4).png)
