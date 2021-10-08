@@ -57,6 +57,8 @@ Object Variables:
 ## Map of Seattle Neighborhoods: Variation in Pricing
 ![Neighborhood Heatmap](https://github.com/dmrossm/HomeSalesAnalysis/blob/main/images/Screen%20Shot%202021-10-08.png)
 
+The means of housing prices in each neighborhood can be used to inform our client on which neighborhoods are within their price range, thereby guiding their focus.
+
 ## Modeling: 
 Via a multiple linear regression model using the below features, we were able to predict housing prices with ~62% greater accuracy than with a baseline model. Given this increased accuracy, we were able to predict housing prices within ~$100,000 of the true price. Given the wide range of housing prices and how expensive many homes are within the Seattle region, an error of $100,000 was deemed accceptable. (Our baseline model assessed median price using the medians of each feature below.)
 Of note, we created roughly 20 models using varying cominations of features, and the above model was found to be optimal.
