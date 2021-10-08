@@ -91,7 +91,7 @@ LIHI can now use this model to predict housing prices of both listed (for sale) 
 - utils (self-made library compilation)
 
 ## Files:
-- Main notebook: 
+- Main notebook: https://github.com/dmrossm/HomeSalesAnalysis/blob/main/Final.ipynb
 
 - Functions: 
 
