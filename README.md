@@ -54,6 +54,7 @@ Object Variables:
 3) Eliminated other outliers (excessive basement space, bathrooms, floors, etc.)
 4) Matched locational data to city names. 
 
+## Map of Seattle Neighborhoods: Variation in Pricing
 ![Neighborhood Heatmap](https://github.com/dmrossm/HomeSalesAnalysis/blob/main/images/Screen%20Shot%202021-10-08.png)
 
 ## Modeling: 
