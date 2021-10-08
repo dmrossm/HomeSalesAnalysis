@@ -9,7 +9,9 @@ Our goal was to find an efficient model that can help choose which homes to buy,
 
 ## Dataset Characteristics
 
-The dataset describes around 22,000 homes sold between 2014-2015, with over 20 different characteristics listed, including price, number of bedrooms and bathrooms, square feet of living space, and more.
+The dataset describes 21,597 homes in Kings County sold between 2014-2015, with 21 different characteristics listed, including price, number of bedrooms and bathrooms, square feet of living space, and more.
+While most of the data is listed for each house, some features have several null values. Waterfront is missing around 2000 values and view is missing around 200. Year renovated is missing 5000 values. As the three of these features didn’t have a high pearson correlation coefficient to the variable of interest, price, we decided to drop the rows.
+Another important characteristic included was the qualitative grade and condition of the dataset. Each house was scored on a 1-13 scale of quality, from poor to luxury. The condition meanwhile assesses the wear and tear on the household, from Poor to Very Good.
 
 ## Key Takaways
 These features were used to develop the most effective model: 
