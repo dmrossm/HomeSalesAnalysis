@@ -13,6 +13,8 @@ The dataset describes 21,597 homes in Kings County sold between 2014-2015, with 
 While most of the data is listed for each house, some features have several null values. Waterfront is missing around 2000 values and view is missing around 200. Year renovated is missing 5000 values. As the three of these features didn’t have a high pearson correlation coefficient to the variable of interest, price, we decided to drop the rows.
 Another important characteristic included was the qualitative grade and condition of the dataset. Each house was scored on a 1-13 scale of quality, from poor to luxury. The condition meanwhile assesses the wear and tear on the household, from Poor to Very Good.
 
+##                                Feature Correlation Chart
+
 ![Feature Correlation Chart](https://github.com/dmrossm/HomeSalesAnalysis/blob/main/images/image%20(4).png)
 
 ## Key Takaways
@@ -37,6 +39,9 @@ Of note, we created roughly 20 models using varying cominations of features, and
 - living space square footage
 - grade 
 - closest 15 neighbors living space square footage
+
+## Final Model: Feature Coefficients
+![Correlation Coefficient Graph](https://github.com/dmrossm/HomeSalesAnalysis/blob/main/images/image%20(2).png)
 
 ## Conclusion: 
 - Using a multiple linear regression model with the features latitude, living space square footage, grade, and closest 15 neighbors living space square footage, we can predict housing prices within this region within ~$100,000 of true price and with ~62% greater accuracy than our baseline model.
