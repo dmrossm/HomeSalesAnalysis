@@ -1,6 +1,6 @@
 # Seattle Affordable Housing Initiative
 
-![alt text]()
+![king county image, from https://www.racialequityalliance.org/jurisdictions/king-county-washington/](https://www.racialequityalliance.org/wp-content/uploads/2016/10/assessors_social-1.jpg)
 
 ## Business Problem
 
@@ -26,9 +26,9 @@ These features were used to develop the most effective model:
 3) Eliminated other outliers (excessive basement space, bathrooms, floors, etc.)
 4) Matched locational data to city names. 
 
-## Modeling
+## Modeling: Via a multiple linear regression model using the fetures latitude, living space square footage, 
 
-## Conclusion
+## Conclusion:  
 
 ## Important libraries:
 - pandas
