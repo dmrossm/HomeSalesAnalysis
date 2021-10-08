@@ -66,7 +66,8 @@ LIHI can now use this model to predict housing prices of both listed (for sale) 
 - Jennifer Cobb
 - Danielle Rossman
 
-## Credit
+## Credit:
+- Image by Local and Regional Government Alliance on Race and Equity
 
 ## Dataset Glossary:
 - https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r#b
