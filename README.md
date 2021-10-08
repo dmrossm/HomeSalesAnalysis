@@ -26,7 +26,12 @@ These features were used to develop the most effective model:
 3) Eliminated other outliers (excessive basement space, bathrooms, floors, etc.)
 4) Matched locational data to city names. 
 
-## Modeling: Via a multiple linear regression model using the fetures latitude, living space square footage, 
+## Modeling: 
+Via a multiple linear regression model using the below features, we were able to predict housing prices with ~62% greater accuracy than with a baseline model. Given this increased accuracy, we were able to predict housing prices within $100,000 of the true price. Given the wide range of hoursing prices and how expensive many homes are within the Seattle region, an error of $100,000 was deemed accceptable. (Our baseline model assessed median price using the medians of each feature below.)
+- latitude
+- living space square footage
+- grade 
+- closest 15 neighbors living space square footage
 
 ## Conclusion:  
 
