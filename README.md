@@ -18,11 +18,10 @@ Another important characteristic included was the qualitative grade and conditio
 ![Feature Correlation Chart](https://github.com/dmrossm/HomeSalesAnalysis/blob/main/images/image%20(4).png)
 
 ## Key Takaways
-These features were used to develop the most effective model: 
+These 3 features were used to develop the most effective model: 
 1) Living space square footage (LSSF): Square footage of living space in the home
-2) Closest 15 neighbors living space square footage: The square footage of interior housing living space for the nearest 15 neighbors
-3) Latitude: Latitude coordinate
-4) Grade: Overall grade of the house. Related to the construction and design of the house.
+2) Latitude: Latitude coordinate
+3) Grade: Overall grade of the house. Related to the construction and design of the house.
 
 ## Exploratory Data Analysis:
 
