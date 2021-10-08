@@ -24,13 +24,14 @@ These features were used to develop the most effective model:
 3) Latitude: Latitude coordinate
 4) Grade: Overall grade of the house. Related to the construction and design of the house.
 
-## Exploratory Data Analysis
+## Exploratory Data Analysis:
 
 ## Data Cleaning Process
-1) Narrowed data to single family homes (2-5 bedrooms).
+1) Narrowed data to single family homes (2-5 bedrooms). We defined a single family home as under 6 bedrooms, under 5 bathrooms, under 4 floors, living space under 6000 sqft, and lot space under 10,000 sqft.
 2) Removed extraneous variables based on missing values and outliers (view, year renovated, date, waterfront)
 3) Eliminated other outliers (excessive basement space, bathrooms, floors, etc.)
 4) Matched locational data to city names. 
+
 
 ## Modeling: 
 Via a multiple linear regression model using the below features, we were able to predict housing prices with ~62% greater accuracy than with a baseline model. Given this increased accuracy, we were able to predict housing prices within ~$100,000 of the true price. Given the wide range of housing prices and how expensive many homes are within the Seattle region, an error of $100,000 was deemed accceptable. (Our baseline model assessed median price using the medians of each feature below.)
