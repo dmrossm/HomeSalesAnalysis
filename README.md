@@ -27,6 +27,8 @@ These 3 features were used to develop the most effective model:
 
 ## Exploratory Data Analysis:
 
+![Feature Heatmap](https://github.com/dmrossm/HomeSalesAnalysis/blob/main/images/Screen%20Shot%202021-10-08.png)
+
 Numerical Variable:
 - The max price is very significantly larger than the mean. We will look further into that feature to evaluate outliers.
 - There is also a large max  bedroom value indicating an outlier. We removed this and trated the column as categorical.
