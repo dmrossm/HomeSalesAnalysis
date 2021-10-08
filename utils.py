@@ -4,10 +4,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-<<<<<<< HEAD
-=======
-
->>>>>>> 61ad7cf95c462a8a6a62c76ef6edd4dfbdbce121
 
 from datetime import datetime
 
