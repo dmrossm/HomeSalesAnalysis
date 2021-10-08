@@ -27,8 +27,6 @@ These 3 features were used to develop the most effective model:
 
 ## Exploratory Data Analysis:
 
-![Feature Heatmap](https://github.com/dmrossm/HomeSalesAnalysis/blob/main/images/Screen%20Shot%202021-10-08.png)
-
 Numerical Variable:
 - The max price is very significantly larger than the mean. We will look further into that feature to evaluate outliers.
 - There is also a large max  bedroom value indicating an outlier. We removed this and trated the column as categorical.
@@ -57,6 +55,7 @@ Object Variables:
 3) Eliminated other outliers (excessive basement space, bathrooms, floors, etc.)
 4) Matched locational data to city names. 
 
+![Neighborhood Heatmap](https://github.com/dmrossm/HomeSalesAnalysis/blob/main/images/Screen%20Shot%202021-10-08.png)
 
 ## Modeling: 
 Via a multiple linear regression model using the below features, we were able to predict housing prices with ~62% greater accuracy than with a baseline model. Given this increased accuracy, we were able to predict housing prices within ~$100,000 of the true price. Given the wide range of housing prices and how expensive many homes are within the Seattle region, an error of $100,000 was deemed accceptable. (Our baseline model assessed median price using the medians of each feature below.)
