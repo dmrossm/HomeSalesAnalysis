@@ -24,6 +24,18 @@ These 3 features were used to develop the most effective model:
 3) Grade: Overall grade of the house. Related to the construction and design of the house.
 
 ## Exploratory Data Analysis:
+- The max price is very significantly larger than the mean. We will look further into that feature to evaluate outliers.
+- There is also a large max  bedroom value indicating an outlier. We removed this and trated the column as categorical.
+- The max bathroom value is much higher than most of the dataset. This many bathrooms may be from a building that is not representative of the homes we would like to work with in our model. This column was treated as categorical.
+- The sqft_living max value is significantly larger than the mean. This large of a building may not be representative of the homes we would like to work with in our model.
+- The sqft_lot max value is significantly larger than a large portion of the dataset. This large of a lot may not be representative of the homes we would like to work with in our model.
+- The max floors value is larger than the majority of our dataset. We restricted the number of floors in our model.
+- In yr_built we see homes were build between 1900 and 2015
+- In yr_renovated, 79% of the homes have not been renovated. With such a large percentage of the dataset with no value, this column was later removed .
+- Zipcodes, were represented numerically, but were appropriately treated as categorical values.
+- In lat and Long we see the latitude and longitude coordinates of the homes.
+- In sqft_living15 we see the square footage of the interior housing living space of the nearest 15 neighbors.
+- In sqft_lot15 we see the square footage of the land lots of the nearest 15 neighbors.
 
 ## Data Cleaning Process
 1) Narrowed data to single family homes (2-5 bedrooms). We defined a single family home as under 6 bedrooms, under 5 bathrooms, under 4 floors, living space under 6000 sqft, and lot space under 10,000 sqft.
