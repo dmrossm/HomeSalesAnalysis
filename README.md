@@ -68,7 +68,7 @@ Of note, we created roughly 20 models using varying cominations of features, and
 ![Correlation Coefficient Graph](https://github.com/dmrossm/HomeSalesAnalysis/blob/main/images/image%20(2).png)
 
 ## Conclusion: 
-- Using a multiple linear regression model with the features latitude, living space square footage, grade, and closest 15 neighbors living space square footage, we can predict housing prices within this region within ~$100,000 of true price and with ~62% greater accuracy than our baseline model.
+- Using a multiple linear regression model with the features latitude, living space square footage, grade, and closest 15 neighbors living space square footage, we can predict housing prices within this region within ~$100,000 of true price and with ~63% greater accuracy than our baseline model.
 - Actionable Insights:
 LIHI can now use this model to predict housing prices of both listed (for sale) and unlisted (not for sale) properties. 
 1) Finding Bargains: By comparing the model's predicted price to the listed price, LIHI can now find under-priced homes and prioritize their purchases. (Underpriced homes are expected to arise due to various factors, including financial difficulties being experienced by the owner and a need for immediate income, as well as lenghty stretches of time that a home may remain on the market and the owner's subsequent willingness to lower the price in order to find a buyer.)
